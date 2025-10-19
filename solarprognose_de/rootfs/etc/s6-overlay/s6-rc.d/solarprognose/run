@@ -1,0 +1,10 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+# ==============================================================================
+# Home Assistant Community Add-on: Solarprognose.de to MQTT
+# Runs solarprognose.sh script
+# ==============================================================================
+
+bashio::log.info "Starting Solarprognose..."
+
+exec /usr/bin/solarprognose.sh

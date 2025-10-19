@@ -1,0 +1,50 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: The amount of logging the add-on should do.
+  accesstoken:
+    name: Access-Token
+    description: Your Access-Token from solarprognose.de.
+  project:
+    name: Project
+    description: Please type in your Website or your mail. So the page-owner will contact you if nessesary.
+  item:
+    name: ITEM
+    description: Set to "location" or "plant" or "inverter" or "module_field"
+  id:
+    name: ID
+    description: This is the unique number of a selected item. The first option is using a combination of item and id.
+  token:
+    name: TOKEN
+    description: If you only have one location you don´t need item/id/token, the API is responsing data from first location. ITEM und TOKEN is nessasary to access elements witch are not public "&item=inverter&token=" If you got access by access-token you can get data from privat elements.
+  type:
+    name: TYPE
+    description: Choose your favourite Type from choice.
+  algorithm:
+    name: Algorithm
+    description: Choose your favourite Algorithm from choice.
+  day:
+    name: DAY
+    description: Allowed values from -2 to 6.  For querying data over a specific period. This defines the end date relative to today. Note - This may be limited by your subscription plan! The error "STATUS_ERROR_INVALID_DAY" may occur if the value exceeds what your plan includes.
+  start_day:
+    name: START_DAY
+    description: Allowed values from -2 to 6. For querying data over a specific period. This defines the end date relative to today. Note - This may be limited by your subscription plan! The error "STATUS_ERROR_INVALID_START_DAY" may occur if the value exceeds what your plan includes.
+  end_day:
+    name: END_DAY
+    description: Allowed values from -2 to 6. For querying data over a specific period. This defines the end date relative to today. Note - This may be limited by your subscription plan! The error "STATUS_ERROR_INVALID_END_DAY" may occur if the value exceeds what your plan includes.
+  MQTT_HOST:
+    name: MQTT HOST
+    description: HOST-Adress of your MQTT Broker.
+  MQTT_USER:
+    name: MQTT User
+    description: User to sign in for your MQTT Broker.
+  MQTT_PASSWORD:
+    name: MQTT Password
+    description: Password to sign in for your MQTT Broker.
+  MQTT_TOPIC:
+    name: MQTT Topic
+    description: Topic for publishing your MQTT Values.
+  break_time:
+    name: Break Time
+    description: Requesting time interval in hours. 

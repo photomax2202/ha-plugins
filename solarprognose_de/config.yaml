@@ -1,0 +1,47 @@
+---
+name: Solarprognose.de to MQTT
+description: Add-on to request data from solarprognose.de-Service. See API reference on solarprognose.de for mor Information.
+version: 1.0.0
+slug: solarprognose_de_to_mqtt
+url: https://www.solarprognose.de/web/de-de/solarprediction/page/api
+codenotary: codenotary@frenck.dev
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armv7
+options:
+  log_level: debug
+  accesstoken: z4auobTXQT6HdW1SLlQ9jDavRAx2rDfJ
+  project: maximilian.steinert@me.com
+#  item: 
+#  id: 
+#  token: 
+  type: daily
+  algorithm: own-v1
+#  day: 
+#  start_day: 
+#  end_day:
+  MQTT_HOST: "localhost"
+  MQTT_USER: "mqtt"
+  MQTT_PASSWORD: "mqtt"
+  MQTT_TOPIC: "solarprognose"
+  break_time: 1
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  accesstoken: password
+  project: str
+  item: "int?"
+  id: "int?"
+  token: "password?"
+  type: "list(hourly|daily)"
+  algorithm: "list(mosmix|own-v1|clearsky)"
+  day: "list(-2|-1|0|1|2|3|4|5|6)?"
+  start_day: "list(-2|-1|0|1|2|3|4|5|6)?"
+  end_day: "list(-2|-1|0|1|2|3|4|5|6)?"
+  MQTT_HOST: str
+  MQTT_USER: str
+  MQTT_PASSWORD: password
+  MQTT_TOPIC: str
+  break_time: "int(1,24)"
+host_network: true
