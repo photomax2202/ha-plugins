@@ -160,13 +160,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_example&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=solarprognose_de_to_mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fphotomax2202%2Fha-plugins
 [contributors]: https://github.com/hassio-addons/addon-example/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-example/issues
+[issue]: https://github.com/photomax2202/ha-plugins/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-example/releases
+[releases]: https://github.com/photomax2202/ha-plugins/releases
 [semver]: http://semver.org/spec/v2.0.0.html
