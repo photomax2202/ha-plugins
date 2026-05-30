@@ -12,8 +12,8 @@ arch:
   - armv7
 options:
   log_level: debug
-  accesstoken: z4auobTXQT6HdW1SLlQ9jDavRAx2rDfJ
-  project: maximilian.steinert@me.com
+  accesstoken: ***YOUR-TOKEN***
+  project: ***YOUR-MAIL***
 #  item: 
 #  id: 
 #  token: 
